@@ -44,14 +44,14 @@ public class JTar extends JFrame implements ActionListener , KeyListener
 		jif.add(lbl_verbose);
 
 		btn_untar = new JButton("Extract");		
-		btn_untar.setBounds(100,100,100,35);
+		btn_untar.setBounds(100,100,80,35);
 		btn_untar.addActionListener(this);
 		btn_untar.addKeyListener(this);
 		btn_untar.setMnemonic(KeyEvent.VK_X);
 		jif.add(btn_untar);
 
 		btn_create = new JButton("Create");
-		btn_create.setBounds(150,100,300,35);
+		btn_create.setBounds(250,100,80,35);
 		btn_create.addActionListener(this);
                 btn_create.addKeyListener(this);
                 btn_create.setMnemonic(KeyEvent.VK_C);
